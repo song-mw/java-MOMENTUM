@@ -1,0 +1,56 @@
+body {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+.hidden {
+    display: none;
+}
+
+#weather {
+    display: inline-block;
+    padding: 0px 30px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50px;
+
+}
+
+#clock {
+    margin-top: 150px;
+    font-size: 100px;
+    color: rgba(207, 207, 207, 0.7);
+    text-shadow: 0px 0px 10px peru;
+}
+
+#greeting {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+li {
+    list-style-type: none;
+    padding: 3px;
+    color: white;
+}
+
+li span {
+    padding: 10px;
+    margin: 10px;
+}
+
+#quote {
+    display: inline-block;
+    position: fixed;
+    bottom: 20px;
+    left: 0px;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    font-size: 15px;
+}
+
+.author {
+    font-style: italic;
+    font-size: 13px;
+}
